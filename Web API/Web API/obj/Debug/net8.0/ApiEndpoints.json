@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "Web_API.Controllers.LinkedListController",
+    "Method": "Get",
+    "RelativePath": "linked-list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_API.Controllers.LinkedListController",
+    "Method": "Post",
+    "RelativePath": "linked-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.Object",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_API.Controllers.LinkedListController",
+    "Method": "Delete",
+    "RelativePath": "linked-list/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
